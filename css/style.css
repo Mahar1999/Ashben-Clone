@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    letter-spacing: 2px;
 }
 /***********************nav bar*****************************/
 .navbar{
@@ -29,9 +30,52 @@
 /****************************back-img*****************************/
 
 .head{
-    background-image: linear-gradient(rgba(226, 240, 250, 0.37),rgba(59, 48, 48, 0.021)),url(../image/head_background.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.021)),url(../image/head_background.jpeg);
     background-position: center;
     background-size: cover;
     height: 60vh;
+    position: relative;
 }
 
+.header-box{
+    text-transform: uppercase;
+    color: #eee;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-7%, -49%);
+}
+
+.primary-heading{
+    font-size:35px;
+} 
+
+.and-txt{
+    text-transform: lowercase;
+}
+.heading{
+    font-weight:400;
+    letter-spacing:3px;
+}
+.btn{
+    border-radius: 5px; 
+    margin-top: 15px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+background-color: #34B69F;
+transform: translateY(-3px);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.btn:active{
+    transform: translateY(-1px);
+}
+    
+
+.btn a{
+    color:#eee;
+    text-decoration: none;
+    font-size: 14px;
+}
