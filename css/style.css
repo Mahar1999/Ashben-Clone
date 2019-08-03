@@ -29,7 +29,7 @@
 /****************************back-img*****************************/
 
 .head{
-    background-image: linear-gradient(rgba(226, 240, 250, 0.37),rgba(59, 48, 48, 0.021)),url(./pexels-photo-1308624.jpeg);
+    background-image: linear-gradient(rgba(226, 240, 250, 0.37),rgba(59, 48, 48, 0.021)),url(../image/head_background.jpeg);
     background-position: center;
     background-size: cover;
     height: 60vh;
