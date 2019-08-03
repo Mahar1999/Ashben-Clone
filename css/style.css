@@ -105,3 +105,32 @@ box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 .fitting{
     margin-top:-10px;
 }
+/******************download catalog****************/
+.catalog{
+    width:100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.781),rgba(0, 0, 0, 0.568)), url(../image/76-762881_library-books-shelf-background-black-and-white-books.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    margin-top:60px;
+   
+}
+
+ .pdf{
+    text-align: center;
+    padding-top: 128px;
+     }
+
+.box-1{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.box-2{
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.tag{
+    color: #eee;
+}
