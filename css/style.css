@@ -118,7 +118,8 @@ box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 
  .pdf{
     text-align: center;
-    padding-top: 128px;
+    padding:75px;
+    
      }
 
 .box-1{
@@ -133,4 +134,83 @@ box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 
 .tag{
     color: #eee;
+}
+/***************contact-form********************************/
+
+.parent{
+    height: 60vh;
+}
+.contact_form{
+    width:40%;
+    height: 60vh;
+    float: left;
+
+}
+.ad{
+    width:60%;
+    background-color: rgb(218, 209, 172);
+    height: 60vh;
+    float: right;
+    background-image:linear-gradient(rgba(8, 8, 8, 0.603),rgba(0, 0, 0, 0.658)), url(../image/building.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 23% 100%);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.line{
+    color:#eee;
+    letter-spacing:1px;
+    font-weight: 100;
+    float: right;
+
+}
+
+.tag1{
+font-size:30px;
+padding-right:300px;
+padding-top: 100px;
+font-weight: 400;
+
+}
+.tag2{
+font-size: 22px;
+padding-right: 342px;
+}
+
+.contact_head{
+  margin-left: 90px;
+  font-size: 30px;
+}
+.contact_subhead{
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+
+.text{
+    font-size: 20px;
+    width: 100%;
+}
+
+.type{
+    width: 100%;
+    font-size: 20px;
+}
+
+#submit{
+  color: rgb(26, 4, 29);
+}
+.submited{
+    background-color: rgb(126, 136, 172);
+}
+
+.type input{
+    width: 100%;
+}
+
+
+.message_type textarea{
+    width: 100%;
 }
