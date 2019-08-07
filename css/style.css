@@ -5,34 +5,49 @@
     letter-spacing: 2px;
 }
 
+body{
+    font-family: montserrat;
+
+}
+
 .row{
     width: 70%;
     margin: 0 auto;
+}
+
+.mt-30{
+    margin-top: 30px;
 }
 /***********************nav bar*****************************/
 .navbar{
     height: 80px;
     width: 70%;
     margin: auto;
-    margin-top: 5px;
     padding: 5px 10px;
    
 }
 .navbar a{ 
     text-decoration: none;
     padding-right:8px;
-    font-size:14px;
+    font-size:16px;
     color: grey;  
     letter-spacing: 0px;
 }
 .navbar li{
     display: inline-block; 
-    padding-top:30px;
+    /* padding-top:30px; */
 }
 
 .logo{
     height: 40px;
     
+}
+.hehe:hover{
+    color: #34B69F;
+}
+.unorder{
+    margin:auto 0;
+
 }
 /****************************back-img*****************************/
 
@@ -90,13 +105,15 @@ box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 /********************structuers***************************/
 
 
+
 .sol_head{
     text-align: center;
     margin-top: 50px;
     
+    
 }
 .sol_head h1{
-    font-weight: 100;
+    font-weight: 500;
 }
 .row h1{
     font-weight: 100;
@@ -105,13 +122,21 @@ box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 .fitting{
     margin-top:-10px;
 }
+
+.take-to-center{
+    text-align: center;
+    
+}
+.take-to-center h1{
+    font-weight: 300;
+}
 /******************download catalog****************/
 .catalog{
     width:100%;
     background-image:linear-gradient(rgba(0, 0, 0, 0.781),rgba(0, 0, 0, 0.568)), url(../image/76-762881_library-books-shelf-background-black-and-white-books.jpg);
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 58vh;
     margin-top:60px;
    
 }
@@ -138,18 +163,17 @@ box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 /***************contact-form********************************/
 
 .parent{
-    height: 60vh;
+    height: 70vh;
 }
 .contact_form{
     width:40%;
     height: 60vh;
     float: left;
-
 }
 .ad{
     width:60%;
     background-color: rgb(218, 209, 172);
-    height: 60vh;
+    height: 70vh;
     float: right;
     background-image:linear-gradient(rgba(8, 8, 8, 0.603),rgba(0, 0, 0, 0.658)), url(../image/building.jpg);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 23% 100%);
@@ -182,10 +206,14 @@ padding-right: 342px;
 .contact_head{
   margin-left: 90px;
   font-size: 30px;
+  letter-spacing:1px;
 }
 .contact_subhead{
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 90px;
+    margin-top:0px;
+    letter-spacing:1px;
+    font-weight: 300;
 }
 
 
@@ -200,11 +228,9 @@ padding-right: 342px;
 }
 
 #submit{
-  color: rgb(26, 4, 29);
+    color: black;
 }
-.submited{
-    background-color: rgb(126, 136, 172);
-}
+
 
 .type input{
     width: 100%;
@@ -213,4 +239,36 @@ padding-right: 342px;
 
 .message_type textarea{
     width: 100%;
+}
+/*************Fotter*****************************************/
+.footer{
+    background-color:#092550;
+    margin-top: 0px;
+    height: 180px;
+    color: #eee;
+}
+
+.footer_head{
+    font-weight:500 !important; 
+}
+.footer_subhead{
+    font-size:14px;
+    font-weight: 200;
+}
+
+.copyright{
+    
+    width:100%;
+} 
+
+.last .copy_text{
+    margin: 0px;
+    font-size:15px;
+    color: #eee;
+    padding:16px;
+}
+.last{
+    height: 7vh;
+    background-color:#2A3C91;
+    text-align: center;
 }
